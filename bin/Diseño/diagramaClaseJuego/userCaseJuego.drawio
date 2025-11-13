@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="Axep7K-k9Rlj8JKUoGF0" name="Page-1">
+        <mxGraphModel dx="702" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Jugador&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="52" y="120" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Validar condiciones de Juego :&lt;br&gt;- no se puede llevar mas de dos personas en el barco&lt;br&gt;-se debe culplir condiciones para los objetos&amp;nbsp; &amp;nbsp;" style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="350" width="304" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ApJuego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="726" y="110" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&#xa;Ganar si todos los personajes:&#xa;caperusita, lobo , uvas , observador&#xa; cruzan el rio&#xa;   " style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="138" y="489" width="219" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Perder si sucede que  :&#xa;Caperusita se come a Lobo.&#xa;Lobo se come a Caperusita.&#xa;   " style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="477" y="488" width="200" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.259;exitY=0.964;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.556;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="11" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="347" y="375" as="sourcePoint"/>
+                        <mxPoint x="507" y="375" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.746;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.391;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="12" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="507" y="328" as="sourcePoint"/>
+                        <mxPoint x="447" y="375" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;exitX=0.476;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="20" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="347" y="375" as="sourcePoint"/>
+                        <mxPoint x="387" y="301" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Seleccionar Personajes para subir a la barca entre Caperusita, Lobo,Uva,Observador , posterior a subir a los personajes cruzar el rio para poder desembarcar en la orilla del frente , despues de esto&amp;nbsp; desembarcar a un personaje e ir a la orilla anterior a subir a otro personaje , hasta poder levar a cada uno de ellos a la orilla vecina." style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="179" y="95" width="407" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="20" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="70" y="154" as="sourcePoint"/>
+                        <mxPoint x="230" y="154" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;exitX=0.307;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.968;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="20" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="575" y="192.5" as="sourcePoint"/>
+                        <mxPoint x="764" y="228.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.961;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="749" y="187" as="sourcePoint"/>
+                        <mxPoint x="546" y="223" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
